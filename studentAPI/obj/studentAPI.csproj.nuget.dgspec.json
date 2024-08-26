@@ -1,0 +1,181 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/shivamk2/Frontend Revision/StudentSolution/studentAPI/studentAPI.csproj": {}
+  },
+  "projects": {
+    "/home/shivamk2/Frontend Revision/StudentSolution/StudentDatabase/StudentDatabase.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/shivamk2/Frontend Revision/StudentSolution/StudentDatabase/StudentDatabase.csproj",
+        "projectName": "StudentDatabase",
+        "projectPath": "/home/shivamk2/Frontend Revision/StudentSolution/StudentDatabase/StudentDatabase.csproj",
+        "packagesPath": "/home/shivamk2/.nuget/packages/",
+        "outputPath": "/home/shivamk2/Frontend Revision/StudentSolution/StudentDatabase/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/shivamk2/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Azure.Data.Tables": {
+              "target": "Package",
+              "version": "[12.9.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.423/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/shivamk2/Frontend Revision/StudentSolution/studentAPI/studentAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/shivamk2/Frontend Revision/StudentSolution/studentAPI/studentAPI.csproj",
+        "projectName": "studentAPI",
+        "projectPath": "/home/shivamk2/Frontend Revision/StudentSolution/studentAPI/studentAPI.csproj",
+        "packagesPath": "/home/shivamk2/.nuget/packages/",
+        "outputPath": "/home/shivamk2/Frontend Revision/StudentSolution/studentAPI/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/shivamk2/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/shivamk2/Frontend Revision/StudentSolution/StudentDatabase/StudentDatabase.csproj": {
+                "projectPath": "/home/shivamk2/Frontend Revision/StudentSolution/StudentDatabase/StudentDatabase.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Azure.Data.Tables": {
+              "target": "Package",
+              "version": "[12.9.0, )"
+            },
+            "Azure.Identity": {
+              "target": "Package",
+              "version": "[1.12.0, )"
+            },
+            "ExceptionHandling": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Microsoft.ApplicationInsights": {
+              "target": "Package",
+              "version": "[2.22.0, )"
+            },
+            "Microsoft.ApplicationInsights.AspNetCore": {
+              "target": "Package",
+              "version": "[2.22.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.ApplicationInsights": {
+              "target": "Package",
+              "version": "[2.22.0, )"
+            },
+            "Microsoft.Identity.Web": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "OpenTelemetry.Exporter.Console": {
+              "target": "Package",
+              "version": "[1.9.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[6.7.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.423/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

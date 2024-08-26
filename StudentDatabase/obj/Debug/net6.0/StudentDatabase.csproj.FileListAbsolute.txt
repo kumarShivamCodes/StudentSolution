@@ -1,0 +1,12 @@
+/home/shivamk2/Frontend Revision/StudentSolution/StudentDatabase/bin/Debug/net6.0/StudentDatabase.deps.json
+/home/shivamk2/Frontend Revision/StudentSolution/StudentDatabase/bin/Debug/net6.0/StudentDatabase.dll
+/home/shivamk2/Frontend Revision/StudentSolution/StudentDatabase/bin/Debug/net6.0/StudentDatabase.pdb
+/home/shivamk2/Frontend Revision/StudentSolution/StudentDatabase/obj/Debug/net6.0/StudentDatabase.csproj.AssemblyReference.cache
+/home/shivamk2/Frontend Revision/StudentSolution/StudentDatabase/obj/Debug/net6.0/StudentDatabase.GeneratedMSBuildEditorConfig.editorconfig
+/home/shivamk2/Frontend Revision/StudentSolution/StudentDatabase/obj/Debug/net6.0/StudentDatabase.AssemblyInfoInputs.cache
+/home/shivamk2/Frontend Revision/StudentSolution/StudentDatabase/obj/Debug/net6.0/StudentDatabase.AssemblyInfo.cs
+/home/shivamk2/Frontend Revision/StudentSolution/StudentDatabase/obj/Debug/net6.0/StudentDatabase.csproj.CoreCompileInputs.cache
+/home/shivamk2/Frontend Revision/StudentSolution/StudentDatabase/obj/Debug/net6.0/StudentDatabase.dll
+/home/shivamk2/Frontend Revision/StudentSolution/StudentDatabase/obj/Debug/net6.0/refint/StudentDatabase.dll
+/home/shivamk2/Frontend Revision/StudentSolution/StudentDatabase/obj/Debug/net6.0/StudentDatabase.pdb
+/home/shivamk2/Frontend Revision/StudentSolution/StudentDatabase/obj/Debug/net6.0/ref/StudentDatabase.dll

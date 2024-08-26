@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>studentAPI</name>
+    </assembly>
+    <members>
+        <member name="M:studentAPI.Controllers.StudentController.GetStudents">
+            <summary>
+            Retrieves a list of all students
+            </summary>
+            <returns>List of students</returns>
+        </member>
+        <member name="M:studentAPI.Controllers.StudentController.GetStudent(System.Int32)">
+            <summary>
+            Retrieves a specific student by ID.
+            </summary>
+            <param name="id">ID of the student </param>
+            <returns>Student with specified id  </returns>
+        </member>
+        <member name="M:studentAPI.Controllers.StudentController.PostStudent(StudentDatabase.Student)">
+            <summary>
+            Creates a new a student with the provided data
+            </summary>
+            <returns>Created student object</returns>
+        </member>
+        <member name="M:studentAPI.Controllers.StudentController.PutStudent(System.Int32,StudentDatabase.Student)">
+            <summary>
+            Updates an existing student.
+            </summary>
+            <param name="id">Student ID</param>
+            <param name="student">Updated student object</param>
+            <returns>Updated student object</returns>
+        </member>
+        <member name="M:studentAPI.Controllers.StudentController.DeleteStudent(System.Int32)">
+            <summary>
+            Deletes an existing student.
+            </summary>
+            <param name="id">Student ID</param>
+            <returns>No content</returns>
+        </member>
+    </members>
+</doc>
